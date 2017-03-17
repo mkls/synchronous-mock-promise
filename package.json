@@ -1,0 +1,28 @@
+{
+  "name": "synchronous-mock-promise",
+  "version": "1.0.0",
+  "description": "Mock promises for synchronous assertions in tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkls/synchronous-mock-promise.git"
+  },
+  "keywords": [
+    "mock",
+    "promise",
+    "syncronous"
+  ],
+  "author": "Mkls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkls/synchronous-mock-promise/issues"
+  },
+  "homepage": "https://github.com/mkls/synchronous-mock-promise#readme",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "tape-watcher": "0.0.5"
+  }
+}
