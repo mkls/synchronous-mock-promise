@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/mkls/synchronous-mock-promise#readme",
   "devDependencies": {
-    "eslint-config-mkls": "^1.0.0",
+    "eslint-config-mkls": "^1.0.1",
     "q": "^1.4.1",
     "tape": "^4.6.3",
-    "tape-watcher": "0.0.5"
+    "tape-watcher": "0.0.7"
   }
 }
