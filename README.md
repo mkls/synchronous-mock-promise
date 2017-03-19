@@ -2,7 +2,7 @@
 Synchronous implementation for promises, to make assertions simpler in tests
 
 The main use case is to return these from mocks instead of for example `Q.when(42)`
-and `Q.reject('some erro')`.
+and `Q.reject('some error')`.
 
 Promise without any asyncrounous behaviour is basically like the Either monad,
 it captures validity of values. It could be used as an Either monad if one really wanted to.
@@ -57,7 +57,7 @@ underTest('some param', mockRequestMaker)
     .catch(t.fail)
 ```
 
-Now if mockRequestMaker returns were to return a syncronous-mock-promise instead of a
+Now if mockRequestMaker were to return a syncronous-mock-promise instead of a
 regular one, our test could look like this:
 
 ```js
