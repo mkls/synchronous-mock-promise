@@ -1,6 +1,10 @@
 module.exports = {
-    resolve: value => new Resolved(value),
-    reject: reason => new Rejected(reason)
+    resolve: function (value) {
+        return new Resolved(value)
+    },
+    reject: function (reason) {
+        return new Rejected(reason)
+    }
 }
 
 function Resolved(value) {
