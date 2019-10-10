@@ -1,6 +1,6 @@
 {
   "name": "synchronous-mock-promise",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mock promises for synchronous assertions in tests",
   "main": "index.js",
   "scripts": {

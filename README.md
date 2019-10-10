@@ -18,7 +18,7 @@ It exposes two static factory functions:
 ## Example
 
 ```js
-const mockPromise = require('syncronous-mock-promise')
+const mockPromise = require('synchronous-mock-promise')
 
 mockPromise.resolve(42)          // { state: 'fulfilled', value: 42 }
 mockPrimise.reject('problemo')   // { state: 'rejected', reason: 'problemo' }
